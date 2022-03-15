@@ -34,7 +34,7 @@ function CalcIMC() {
     alert("Seu IMC é de " + IMC.toFixed(2) + " CLASSIFICAÇÃO OBESIDADE");
   } else if (IMC > 40 && IMC <= 80) {
     alert("Seu IMC é de " + IMC.toFixed(2) + " CLASSIFICAÇÃO OBESIDADE GRAVE");
-  } else if (IMC > 120) {
+  } else if (IMC > 900000) {
     alert("Coloca as informações certas ai véi");
   } else {
     alert("Como você quer calcular sem preencher os campos?");
