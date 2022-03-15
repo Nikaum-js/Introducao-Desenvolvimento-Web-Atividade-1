@@ -1,0 +1,121 @@
+/* CSS GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* CSS HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  padding: 0 140px;
+  height: 140px;
+  background-color: #6B5BD4;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header h1 strong {
+  color: #5BD391;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 30px;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: all 0.2;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+/* CSS FORM */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+section h1 {
+  margin-bottom: 80px;
+  color: #373252;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 80px;
+
+  width: 1100px;
+  height: 550px;
+}
+
+.content-left {
+  display: flex;
+
+  margin-top: 180px;
+  width: 70%;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.information h2 {
+  color: #373252;
+  font-size: 32px;
+  line-height: 24px;
+
+  margin: 60px 0 30px 0;
+}
+
+.information p {
+  font-size: 18px;
+}
+
+.information ul li {
+  margin: 13px 0;
+  font-size: 18px;
+}
+
+.content-left img {
+  width: 500px;
+  height: 500px;
+}
