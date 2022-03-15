@@ -4,6 +4,8 @@ function CalcIMC() {
 
   if (inputHeight.includes(",")) {
     alert("Não usa , não loko se vai quebrar o sistema para de graça e coloca .")
+    
+    return
   }
 
   var IMC = inputWeight / (inputHeight * inputHeight)
