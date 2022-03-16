@@ -37,7 +37,7 @@ function CalcIMC() {
   } else if (IMC > 900000) {
     alert("Coloca as informações certas ai véi");
   } else {
-    alert("Como você quer calcular sem preencher os campos?");
+    alert("Digite os dados corretamente!");
   }
 
   return IMC;
